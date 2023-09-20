@@ -1,17 +1,12 @@
-import './App.css';
-import Banner from './components/Banner/Banner';
+import Banner from './components/Banner';
+import Formulario from './components/Formulario';
 
 function App() {
   return (
     <div className="App">
       <Banner />
+      <Formulario />
       <header className="App-header">
-        <p>
-          Editei a frase !
-        </p>
-        
-        <h1>Leirisson Souza</h1>
-        
       </header>
     </div>
   );
