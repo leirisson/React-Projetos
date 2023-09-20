@@ -1,0 +1,15 @@
+.banner{
+    display: flex;
+    text-align: Center;
+    justify-content: center;
+    align-items: center;
+    background-color: #57C278;
+    padding: 1em;
+    border-radius: 14px;
+    width: 100%;
+}
+
+.Banner h1{
+    color: #fff;
+    max-width: 100%;
+}
