@@ -1,0 +1,15 @@
+.formulario-time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em auto;
+    background-color: #f2f2f2;
+    width: 1121px;
+   box-shadow: 8px 8px 25px rgba(0,0,0,0.8);
+}
+
+.formulario-time form{
+    width: 90%;
+    
+    
+}

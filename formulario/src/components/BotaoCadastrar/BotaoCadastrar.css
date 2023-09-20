@@ -1,0 +1,13 @@
+.botao-cadastrar{
+   margin: 20px 0;
+}
+
+.botao-cadastrar button{
+    padding: 1em;
+    font-size: 15px;
+    background-color: #0321cb;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #fff;
+}
