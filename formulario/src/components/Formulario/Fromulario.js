@@ -1,8 +1,15 @@
 import "./Formulario.css"
 import CampoTexto from "../CampoTexto"
 import BotaoCadastrar from "../BotaoCadastrar"
+import ListaSuspensa from "../ListaSusPensa"
 
 export const Formulario = () =>{
+    const itens =[
+        'zagueiro',
+        'Ala',
+        'Fixo',
+        'Goleiro'
+    ]
     return (
         <section className="formulario-time">
             <form>
@@ -11,7 +18,8 @@ export const Formulario = () =>{
                 <CampoTexto label="Quantidade de jogadores" placeholder= "Digite a quantidade de jogadores"/>
                 <CampoTexto label="Nome do tecnico" placeholder="Digite o nome do tecnico do Time"/>
                 <CampoTexto label="Quantidade de reservas do time" placeholder="Digite o numero de jogadores reservas do time"/>
-                <BotaoCadastrar value="Cadastrar Time "/>
+                <ListaSuspensa label="Posição do Jogador" itens={itens}/>
+                <BotaoCadastrar value="Cadastrar Time "  />
             </form>
         </section>
 
