@@ -1,0 +1,15 @@
+.status-aluno{
+    margin: 24px auto;
+}
+
+.status-aluno label{
+    font-size: 20px;
+    font-weight: 600;
+    display: block;
+}
+
+.status-aluno select{
+    font-size: 18px;
+    width: 100%;
+}
+

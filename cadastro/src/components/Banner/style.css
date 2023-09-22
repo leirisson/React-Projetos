@@ -1,0 +1,9 @@
+.banner{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    background-color: rgb(5, 173, 33);
+    padding: 1em;
+    box-shadow: 8px 5px 10px rgba(0,0,0,0.9);
+    
+}

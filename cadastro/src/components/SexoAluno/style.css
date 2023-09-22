@@ -1,0 +1,9 @@
+.sexo{
+    display: flex;
+    align-items: center;
+}
+
+.sexo label{
+    font-size: 18px;
+    font-weight: 600;
+}
