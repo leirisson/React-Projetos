@@ -7,15 +7,11 @@
     border-radius: 14px;
     width: 100%;
     box-sizing: border-box;
-    box-shadow: ;
-}
-
-.Banner h1{
-    color: #fff;
-    max-width: 100%;
+    border-radius: 5px;  
 }
 
 .img-banner{
     width: 100%;
     height: 300px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
 }
