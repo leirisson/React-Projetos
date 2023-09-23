@@ -8,11 +8,7 @@ return(
             <img src="/imagens/logo-semFundo.png" alt="logo da barbearia"/>
         </div>
 
-        <ul className="lista__Menu">
-            <li className="lista__menu-item">Home</li>
-            <li className="lista__menu-item">Sobre</li>
-            <li className="lista__menu-item">Info</li>
-        </ul>
+        <h1>Antônio barbearia</h1>
 
     </header>
 )

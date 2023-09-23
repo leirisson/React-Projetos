@@ -2,8 +2,7 @@ import './Banner.css'
 function Banner(){
     return(
         <header className="banner">
-            <h1>Banner</h1>
-            
+            <img src="imagens/_banner/img5.jpeg" className="img-banner" alt="imagem do barbeiro cortando Jailson"/>
         </header>
     )
 

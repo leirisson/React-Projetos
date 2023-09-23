@@ -4,6 +4,9 @@
     align-items: center;
     justify-content: space-evenly;
     box-sizing: border-box;
+    color: #fff;
+    font-size: 14px;
+    padding: 1em;
     
 
 }
@@ -19,20 +22,3 @@
     
 }
 
-.lista__Menu{
-    display: flex;
-    flex-direction: row;
-    padding: 1em;
-}
-
-.lista__menu-item{
-    width: 100%;
-    padding: 1em;
-    list-style: none;
-    background-color:#57C278;
-    font-weight: 500;
-    color: #fff;
-    margin: 0.5em;
-    border-radius:6px;
-
-}
