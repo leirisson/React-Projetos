@@ -4,7 +4,7 @@ export const SexoAluno = (props) => {
         <div className="sexo">
             <div>
                 <label>{props.label}</label>
-                <input type="radio"  checked={props.checked}/>
+                <input type="radio"  key={props.label} checked={props.checked}/>
             </div>
         </div>
 
