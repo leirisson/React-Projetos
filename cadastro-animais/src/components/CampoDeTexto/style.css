@@ -1,0 +1,23 @@
+.CampoDeTexto{
+    margin: 1em 0;
+
+}
+
+.CampoDeTexto label{
+    font-weight: 700;
+    display: block;
+    
+}
+
+.CampoDeTexto input{
+    border: none;
+    padding: 0.7em;
+    width: 90%;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    border-radius: 2px;
+}
+
+.CampoDeTexto input:hover{
+    cursor: pointer;
+    
+}

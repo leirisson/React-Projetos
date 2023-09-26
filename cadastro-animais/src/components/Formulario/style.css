@@ -1,0 +1,17 @@
+.formulario{
+    background-color: rgb(171, 164, 255);
+    width: 80%;
+    border-radius: 5px;
+    margin: 1em auto;
+    padding: 1em;
+}
+
+.formulario form{
+   margin: 1% 1% 0% 6%;
+    
+}
+
+.formulario h2{
+    text-align: center;
+ 
+}

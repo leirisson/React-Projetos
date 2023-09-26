@@ -31,7 +31,7 @@ export const Barra = (props) =>{
     return (
         <div className="container-animais">
             <ul className="lista-item">
-                {animaisDomesticos.map(animal => <li className="item">{animal}</li>)}
+                {animaisDomesticos.map(animal => <li className="item" key={animal}>{animal}</li>)}
             </ul>
         </div>
     )
