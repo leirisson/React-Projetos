@@ -1,0 +1,21 @@
+.container-animais{
+    background-color: #f2f2f2;
+    
+}
+.lista-item{
+    margin: 0px;
+    display: flex;
+    overflow: scroll;
+}
+.item{
+    padding: 1em;
+    list-style: none;
+    font-size: 10px;
+    background-color: #fff;
+    margin: 0.5em 1em;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 600;
+
+
+}
