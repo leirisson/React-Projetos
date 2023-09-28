@@ -1,0 +1,14 @@
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    height: 100px;
+    background-color:#57c378;
+}
+
+.banner span{
+    font-size: 50px;
+    color: #fff;
+   transform:  rotate(30deg);
+}
