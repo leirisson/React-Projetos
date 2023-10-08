@@ -3,9 +3,7 @@ export const CardProduto = (props) => {
     return(
         <div className="card">
             <div className="card-descricao">
-                    <h3 className="card-descricao-titulo">{props.titulo}</h3>
-                    <p className="card-descricao-produto">{props.descricao}</p>
-                    <p className="card-descricao-preco">{props.preco}</p>
+                    <h2 className="card-descricao-titulo">{props.titulo}</h2>
             </div>
             <div className="card-img">
                 <img src={props.src} alt={props.alt}/>
